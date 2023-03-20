@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   background: url("../img/sairamimg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-container {
   position: absolute;
   bottom: 0;
-  top: 0;
+  top: 50px;
   left: 0;
   right: 0;
   display: flex;
@@ -383,7 +383,44 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.stion {
+  position: relative;
+  margin: 0 auto;
+  padding: 30px;
+  padding-top: 350px;
+  width: 75%;
+  min-height: 280px;
+  transform: translateY(20%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 20px;
+  box-shadow: 0px 0 31px 0px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.card>p:nth-of-type(1) {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: var(--pink);
+}
 
+.card>p:nth-of-type(2) {
+  width: 100%;
+  margin: 50px 0;
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--purple);
+  line-height: 1.3rem;
+}
+
+.card {
+  width: 70%;
+}
 .services .service-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   height: 70%;
@@ -1538,6 +1575,7 @@ section {
   color: #fff;
   font-size: 14px;
   position: relative;
+  margin-top: -100px;
 }
 
 #footer::before {
