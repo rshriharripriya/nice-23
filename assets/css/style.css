@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .navigation {
   height: 70px;
-  background: #262626;
+  background: #0d0070;
   }
   .brand {
   position: absolute;
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   padding: 0 20px;
   line-height: 70px;
-  background: #262626;
+  background: #03005d;
   color: #fff;
   text-decoration: none;
   }
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 0;
   right: 0;
-  background: #262626;
+  background: #000355;
   height: 70px;
   width: 70px;
   }
