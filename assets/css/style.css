@@ -655,6 +655,10 @@ section {
 }
 
 /*publications*/
+.publications{
+    padding-top: 10vh;
+    height: 100vh;
+}
 .publications .icon-box {
   padding: 50px 20px;
   margin-top: 35px;
