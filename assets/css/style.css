@@ -225,7 +225,7 @@ nav{
 
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   background: url("../img/sairamimg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -383,7 +383,7 @@ section {
   position: relative;
   margin: 0 auto;
   padding: 30px;
-  padding-top: 350px;
+  padding-top: 65vh;
   width: 75%;
   min-height: 280px;
   transform: translateY(20%);
@@ -1571,7 +1571,15 @@ section {
   color: #fff;
   font-size: 14px;
   position: relative;
-  margin-top: -100px;
+  /*margin-top: -100px;*/
+    justify-content: space-evenly;
+    align-items: center;
+      display: flex;
+    list-style: none;
+}
+
+.copyright{
+    font-size: 2vh;
 }
 
 #footer::before {
@@ -1700,7 +1708,20 @@ section {
   transition: all 0.3s;
   font-size: 0.9rem;
 }
+.social{
 
+    width: 88vw;
+    padding: 0 0.7vw;
+    justify-content: space-evenly;
+    align-items: center;
+      display: flex;
+    list-style: none;
+    text-transform: uppercase;
+
+  font-size: 5vh;
+  transition: all 0.3s;
+  /*font-size: 0.9rem;*/
+}
 .social-link:hover, .social-link:focus {
   background: #ddd;
   text-decoration: none;
