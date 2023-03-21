@@ -137,6 +137,11 @@ nav{
         position: fixed;
         z-index: 10;
     }
+    .logo img {
+
+  height: 4rem;
+    width: 5rem;
+}
     .hamburger{
         display:block;
         position: absolute;
@@ -149,8 +154,9 @@ nav{
     }
     .nav-links{
         position: fixed;
+        padding: 0;
         background: #131418;
-        height: 100vh;
+        height: 200vh;
         width: 100%;
         flex-direction: column;
         clip-path: circle(50px at 90% -20%);
@@ -159,15 +165,23 @@ nav{
         pointer-events: none;
     }
     .nav-links.open{
-        clip-path: circle(1000px at 90% -10%);
-        -webkit-clip-path: circle(1000px at 90% -10%);
+        padding-top: 90vh;
+        clip-path: circle(220vh at 100% -5%);
+        -webkit-clip-path: circle(220vh at 100% -5%);
         pointer-events: all;
+        height: 200vh;
+    /*-webkit-clip-path: circle(589px at 90% 57%);*/
+
     }
     .nav-links li{
-        opacity: 0;
+        padding: 0;
+        margin: 0;
+        justify-content: unset;
+        opacity: 1 !important;
     }
     .nav-links li:nth-child(1){
         transition: all 0.5s ease 0.2s;
+
     }
     .nav-links li:nth-child(2){
         transition: all 0.5s ease 0.4s;
@@ -190,7 +204,8 @@ nav{
         margin: 0;
     }
     li.fade{
-        opacity: 1;
+        opacity: 1 !important;
+
     }
 }
 /*Animating Hamburger Icon on Click*/
