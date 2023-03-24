@@ -294,6 +294,7 @@ nav{
   #hero {
     background-attachment: fixed;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -322,8 +323,8 @@ section {
 }
 
 .section-title {
-  text-align: center;
-  padding-bottom: 30px;
+  text-align: center!important;
+  padding-bottom: 6vh;
 }
 
 .section-title h2 {
@@ -656,7 +657,7 @@ section {
 
 /*publications*/
 .publications{
-    padding-top: 10vh;
+    padding-top: 15vh;
     height: 100vh;
 }
 .publications .icon-box {
@@ -1758,6 +1759,10 @@ section {
 }
 
 @media (max-width: 575px) {
+
+    .pics-pub{
+        height: 100vh !important;
+    }
   #headers .countdown div {
     width: 70px;
     padding: 10px 0;
